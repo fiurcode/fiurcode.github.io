@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Michroma&display=swap");
+
+body {
+  font-family: Geologica Thin, serif;
+  background: #fff url(https://img.freepik.com/free-photo/html-and-css-collage-concept-with-hacker_23-2150061984.jpg?w=1380&t=st=1688379285~exp=1688379885~hmac=7094062e26075ab6e4013bb13c3b0ad1fcd0901adf17e00232baea46bb6a25ea) center center/cover no-repeat ;
+  /* background: linear-gradient(90deg, #00009c 0%, #000000 100%); */
+}
+
+.nav-link {
+  color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(146, 144, 144);
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-toggler {
+  background-color: rgb(146, 144, 144);
+}
+
+.sidebar {
+  color: aquamarine;
+  /* background: linear-gradient(270deg, #00009c 0%, #000000 100%); */
+}
+
+.card {
+  background: linear-gradient(90deg, #057173 0%, #ff99ee 100%);
+}
+
+.card a {
+  text-decoration: none;
+  color: bisque;
+}
+
+.slide-text {
+  color:greenyellow;
+  margin: auto auto;
+}
+   @media (max-width: 755px) {
+    .carousel-indicators {
+      display: none;
+    }
+   }
+
+.footer-text {
+  color: aquamarine;
+  margin: auto auto;
+}
+
+footer, .btn-outline-primary{
+  background: linear-gradient(90deg, #00009c 0%, #000000 100%);
+  border-style: solid;
+  border-top-width: 0.5px;
+  border-color: rgb(77, 77, 77);
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer>
+
+footer {
+  margin-top: none;
+  background: linear-gradient(0deg, #4E1439 0%, #0022F3 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 2rem;
+  transform: translate(0px, 400px);
+}
+
+ body #tr-popup, .tr-popup{
+  display: none;
+}
+
+
+@media (max-width: 1600px) {
+  footer {
+    padding-block: 3rem;
+  }
+}
+
+
+/* #buttondonat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+/* #carouselExampleIndicators {
+  margin-bottom: 20rem;
+}
+
+@media (max-width:800)
+{
+  #carouselExampleIndicators {
+    margin-bottom: 1rem ;
+  }
+} */
+
+
+
